@@ -1,0 +1,25 @@
+name: bloc_complex
+description: BLoC Provider example application.
+version: 1.0.0+1
+environment:
+  sdk: '>=2.0.0-dev.68.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^0.9.7
+  firebase_auth: ^0.8.1+4
+  google_sign_in: ^4.0.1+1
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.21.0
+  simple_logger: ^0.4.0
+  bloc_provider: ^0.6.2
+  font_awesome_flutter: ^8.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
